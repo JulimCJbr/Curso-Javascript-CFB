@@ -13,6 +13,6 @@ if(res==0){
 //Podemos usar o operador ? ao invez de usar esses if else
 //0 = False
 //1 = True
-//Teste Lógico ? se verdadei : se falso
-res=(!(num%2) ? "Par" : "Impar") //! negando para inverter
+//Teste Lógico ? se verdadeiro : se falso
+res=(!(num%2) ? "Par" : "Impar") //! negando para inverter, pois o resultado é 0, então é falso
 console.log(res)

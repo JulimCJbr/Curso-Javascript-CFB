@@ -1,8 +1,8 @@
 // Operador Typeof, retornando o tipo da variável
 
-let v1=10
+let v1=10 //number, não faz diferença se é inteiro ou decimal
 let v2="10"
-let v3=v1===v2
+let v3=v1===v2 //false
 let v4={nome:"Bruno"}
 
 console.log("Valor: " + v1 + " - Tipo: " + typeof(v1))
